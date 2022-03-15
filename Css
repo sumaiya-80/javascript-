@@ -1,0 +1,41 @@
+ body{
+        background: black;
+    }
+    form{
+
+        width: 800px;
+        height: 600px;
+        background: purple;
+        margin:auto; 
+        margin-top:50px;
+        border-radius: 30px;
+    }
+    .a{
+
+        margin-left: 220px;
+        height: 25px;
+        width: 350px;
+        margin-top: 70px;
+    }.c{
+
+        margin-left: 220px;
+        height: 25px;
+        width: 350px;
+        margin-top: 70px;
+    }.b{
+
+        margin-left: 310px;
+        height: 80px;
+        width: 150px;
+        margin-top: 50px;
+        cursor: pointer;
+        background: yellow;
+        border-radius:5px ;
+        border:2px dashed cyan; 
+
+    }
+    .b :hover{
+        background:transparent;
+        color:purple;
+        text-decoration: none;
+}
