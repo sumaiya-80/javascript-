@@ -1,0 +1,14 @@
+ function validation(){
+        var username = 'wariscollege';
+        var password = '123456';
+        var userName = document.getElementById('user').value;
+        var passWord = document.getElementById('pass').value;
+        if ((username == userName) && (password == passWord))
+        {
+            window.location.replace("mera quiz system.html");
+        }
+        else
+        {        
+        window.alert ("Oops....! TRY Agian............ Your username and password was wrong!");
+        }                
+        }
